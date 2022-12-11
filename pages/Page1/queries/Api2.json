@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\t\n\t\"first_name\": \"{{first_name.text}}\",\n\t\"last_name\": \"{{last_name.text}}\"\n\t}"
+          "data": "{\t\n\t\"first_name\": \"{{first_name.text}}\",\n\t\"last_name\": \"{{last_name.text}}\",\n\t\"currency\": \"{{currency_input.text}}\"\n\t\n\t}"
         },
         "sheetName": {
           "data": "Sheet1"
@@ -73,6 +73,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "currency_input.text",
       "first_name.text",
       "last_name.text"
     ],
